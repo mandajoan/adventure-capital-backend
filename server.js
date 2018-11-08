@@ -1,10 +1,10 @@
-
+require("dotenv").config();
 var express = require("express");
 
 var cors = require('cors')
 var app = express();
 
-var PORT = 'https://adventure-capital-backend.herokuapp.com'|| 8080;
+var PORT = process.env.PORT|| 8080;
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true }));
