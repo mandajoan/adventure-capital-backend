@@ -8,4 +8,4 @@ Built using:
 
 -Cors NPM
 
-Provides Travel Cost information based on City
+Provides daily average travel cost information based on City
